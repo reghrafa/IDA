@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">AmbassadorHub</string>
+    <string name="app_name">edubao</string>
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
+    <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">cFWEhlN8pbdWM7JN8k58ewPfy2oP0vk-twD9K</string>
+    <!-- STAGING KEY: cFWEhlN8pbdWM7JN8k58ewPfy2oP0vk-twD9K, PRODUKTION KEY: vdIA8-8EkIiZ3_4EuswQ4gs4iEFmO2_zr8uFB -->
 </resources>
