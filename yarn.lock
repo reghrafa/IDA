@@ -6023,6 +6023,11 @@ react-native-auth0@^2.1.0:
     jwt-decode "^2.2.0"
     url "^0.11.0"
 
+react-native-azurenotificationhub@^0.9.4:
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/react-native-azurenotificationhub/-/react-native-azurenotificationhub-0.9.4.tgz#832caf49f0806705b168985487415977207566ca"
+  integrity sha512-3XyZ3DXnSYx1ycAkw04aZZAgRzdbPywF8qCrUpj53nd5lwcaKcumJx60cetdPSjqrPfZBpJIU6Yqei52dJ4AaQ==
+
 react-native-code-push@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/react-native-code-push/-/react-native-code-push-6.1.0.tgz#462755e1b302a896d0abf230af4a833562f5ddc9"
