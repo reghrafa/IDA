@@ -1,9 +1,8 @@
 import React from 'react';
 import {Text} from 'react-native';
-import IOnboardingScreenProps from './IOnboardingScreenProps';
 import ScreenWrapper from '../../wrapper/ScreenWrapper/ScreenWrapper';
 
-const OnboardingScreen: React.FC<IOnboardingScreenProps> = ({login}) => {
+const OnboardingScreen: React.FC = () => {
   return (
     <ScreenWrapper>
       <Text>Onboarding</Text>

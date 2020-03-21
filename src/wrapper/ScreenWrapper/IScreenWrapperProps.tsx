@@ -1,6 +1,7 @@
 import {StatusBarStyle} from 'react-native';
+import Color from '../../helper/Color';
 
 export interface IScreenWrapperProps {
-  statusbarColor?: string;
+  color?: Color;
   statusbarStyle?: StatusBarStyle;
 }
