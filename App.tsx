@@ -1,16 +1,30 @@
 import React from 'react';
-import {SafeAreaView, View, Text, StatusBar} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import {createStackNavigator} from '@react-navigation/stack';
+import FeedScreen from './src/screens/FeedScreen';
+import EmergencyScreen from './src/screens/EmergencyScreen';
+import ProfileScreen from './src/screens/ProfileScreen';
+
+const Tab = createBottomTabNavigator();
+const Stack = createStackNavigator();
 
 const App: React.FC = () => {
+  // const [loggedIn, login] = useState<boolean>(true);
   return (
-    <>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <View>
-          <Text>Ambassador Hub</Text>
-        </View>
-      </SafeAreaView>
-    </>
+    <NavigationContainer>
+      <Stack.Navigator>
+        {true ? (
+          <Tab.Navigator>
+            <Tab.Screen name="Feed" component={FeedScreen} />
+            <Tab.Screen name="Emergency" component={EmergencyScreen} />
+            <Tab.Screen name="Profile" component={ProfileScreen} />
+          </Tab.Navigator>
+        ) : (
+          <Stack.Screen name="Auth" component={() => null} />
+        )}
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 };
 
