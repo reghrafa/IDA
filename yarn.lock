@@ -5768,6 +5768,11 @@ react-native-auth0@^2.3.0:
     jwt-decode "^2.2.0"
     url "^0.11.0"
 
+react-native-azurenotificationhub@^0.9.5:
+  version "0.9.5"
+  resolved "https://registry.yarnpkg.com/react-native-azurenotificationhub/-/react-native-azurenotificationhub-0.9.5.tgz#56f5ae9cb17221839390eb2090404b1383c1d60b"
+  integrity sha512-LsgsLg2FhwVHcUWVkbiPc7lI8PYbK1NfOLU6mZlCtGAci5dK0L0Q76PgWW1aB5neCWxzWrKgIipv61BSwy+jkA==
+
 react-native-gesture-handler@^1.6.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-1.6.1.tgz#678e2dce250ed66e93af409759be22cd6375dd17"
