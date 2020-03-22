@@ -1,3 +1,0 @@
-# Theme
-
-[<-BACK](../../README.md)
