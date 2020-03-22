@@ -1,6 +1,7 @@
 import React from 'react';
 import {IScreenWrapperProps} from './IScreenWrapperProps';
-import {StatusBar, SafeAreaView, StyleSheet} from 'react-native';
+import {StatusBar, StyleSheet} from 'react-native';
+import {SafeAreaView} from 'react-navigation';
 
 const ScreenWrapper: React.FC<IScreenWrapperProps> = ({
   children,
@@ -16,13 +17,13 @@ const ScreenWrapper: React.FC<IScreenWrapperProps> = ({
   });
 
   return (
-    <>
+    <SafeAreaView style={style.safeArea}>
       <StatusBar
         backgroundColor={color ? color.HEX : '#ffffff'}
         barStyle={statusbarStyle || 'dark-content'}
       />
-      <SafeAreaView style={style.safeArea}>{children}</SafeAreaView>
-    </>
+      {children}
+    </SafeAreaView>
   );
 };
 

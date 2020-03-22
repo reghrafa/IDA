@@ -13,7 +13,7 @@ const OnboardingScreen: React.FC = () => {
         onPress={() => {
           navigate(NAV_LOGIN);
         }}
-        title="Continue"
+        title="Weiter"
       />
     </ScreenWrapper>
   );
