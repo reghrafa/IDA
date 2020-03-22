@@ -7,6 +7,7 @@
     "android-build-debug": "cd android && ./gradlew assembleDebug",
     "android-build": "cd android && ./gradlew assembleRelease",
     "android-clean": "cd android && ./gradlew clean && cd .. && react-native run-android",
+    "unlink": "react-native unlink react-native-azurenotificationhub",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",

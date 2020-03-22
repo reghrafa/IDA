@@ -1,4 +1,4 @@
-package com.ambassadorhub;
+package org.edubao.ambassadorhub;
 
 import android.app.Application;
 import android.content.Context;

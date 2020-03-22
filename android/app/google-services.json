@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "786991888574",
+    "firebase_url": "https://ambassadorhub-246cf.firebaseio.com",
+    "project_id": "ambassadorhub-246cf",
+    "storage_bucket": "ambassadorhub-246cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786991888574:android:270f0acb08f570bafa46ef",
+        "android_client_info": {
+          "package_name": "org.edubao.ambassadorhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786991888574-t9qnifla5qd2to98gl7u8nkaslj5c2mk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcKiA1dcY1I193pWl3UbWEVQDNXgYzlFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786991888574-t9qnifla5qd2to98gl7u8nkaslj5c2mk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
