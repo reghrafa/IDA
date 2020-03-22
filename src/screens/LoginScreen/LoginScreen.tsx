@@ -1,14 +1,20 @@
 import React from 'react';
 import Text from '../../components/text/Text';
 import ScreenWrapper from '../../wrapper/ScreenWrapper/ScreenWrapper';
-import Color from '../../helper/Color';
+import {Button} from 'react-native';
+import {useStore} from '../../dataLayer/useStore';
 
 const LoginScreen: React.FC = () => {
+  const store = useStore();
   return (
-    <ScreenWrapper
-      color={Color.fromHEX('#242424')}
-      statusbarStyle="light-content">
-      <Text color={Color.fromHEX('#844242')}>LoginScreen</Text>
+    <ScreenWrapper>
+      <Text>LoginScreen</Text>
+      <Button
+        onPress={() => {
+          store.userStore.authenticate();
+        }}
+        title="Continue"
+      />
     </ScreenWrapper>
   );
 };
